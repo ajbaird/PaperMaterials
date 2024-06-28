@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenario xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" contentVersion="BioGears_6.3.0-beta" xsi:schemaLocation="">
+    <Name>Fentanyl</Name>
+    <Description>Inject standard patient with Fentanyl!</Description>
+    <InitialParameters><PatientFile>StudyPatient.xml</PatientFile></InitialParameters>
+    
+	<!-- Base system data required for all scenario verification -->
+  <DataRequests SamplesPerSecond="50">
+  <DataRequest xsi:type="PhysiologyDataRequestData" Name="HeartRate"                         Unit="1/min"       Precision="2"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="HeartStrokeVolume"                 Unit="mL"          Precision="1"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="BloodVolume"                       Unit="L"          Precision="2"/>	
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="ArterialPressure"                  Unit="mmHg"        Precision="1"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="MeanArterialPressure"              Unit="mmHg"        Precision="1"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="SystolicArterialPressure"          Unit="mmHg"        Precision="0"/>
+  <DataRequest xsi:type="PhysiologyDataRequestData" Name="DiastolicArterialPressure"         Unit="mmHg"        Precision="1"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="CardiacOutput"                     Unit="L/min"      Precision="2"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="CentralVenousPressure"             Unit="mmHg"        Precision="2"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="PulmonaryCapillariesWedgePressure" Unit="mmHg"        Precision="2"/>
+  <DataRequest xsi:type="PhysiologyDataRequestData" Name="RespirationRate"                   Unit="1/min"       Precision="2"/>
+  <DataRequest xsi:type="PhysiologyDataRequestData" Name="OxygenSaturation"                  Unit="unitless"    Precision="3"/>
+  <DataRequest xsi:type="PhysiologyDataRequestData" Name="TidalVolume"                       Unit="mL"          Precision="0"/>
+  <DataRequest xsi:type="PhysiologyDataRequestData" Name="TotalLungVolume"                   Unit="L"          Precision="2"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="EndTidalCarbonDioxideFraction"     Unit="unitless"    Precision="4"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="TotalAlveolarVentilation"          Unit="L/min"       Precision="2"/>
+    <DataRequest xsi:type="PhysiologyDataRequestData" Name="TotalPulmonaryVentilation"          Unit="L/min"       Precision="2"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="RespiratoryExchangeRatio"          Unit="unitless"    Precision="3"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="UrineProductionRate"               Unit="mL/min"      Precision="3"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="OxygenConsumptionRate"             Unit="mL/min"      Precision="3"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="CarbonDioxideProductionRate"       Unit="mL/min"      Precision="3"/>
+	
+
+	<!-- Anything action specific data needed for verification of this scenario -->
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="LeftEyePupillaryResponse-SizeModifier" Precision="3"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="LeftEyePupillaryResponse-ReactivityModifier" Precision="3"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="RightEyePupillaryResponse-SizeModifier" Precision="3"/>
+	<DataRequest xsi:type="PhysiologyDataRequestData" Name="RightEyePupillaryResponse-ReactivityModifier" Precision="3"/>
+  <DataRequest xsi:type="PhysiologyDataRequestData" Name="CentralNervousResponse" Precision="2"/>
+  
+	<DataRequest xsi:type="LiquidCompartmentDataRequestData" Compartment="Aorta"                  Substance="Fentanyl" Name="Concentration" Unit="ug/L" Precision="4"/>
+	<DataRequest xsi:type="LiquidCompartmentDataRequestData" Compartment="VenaCava"               Substance="Fentanyl" Name="Concentration" Unit="ug/L" Precision="4"/> 
+	 
+	
+	<DataRequest xsi:type="SubstanceDataRequestData" Substance="Fentanyl" Name="PlasmaConcentration" Unit="ug/L" Precision="6"/>
+	<DataRequest xsi:type="SubstanceDataRequestData" Substance="Fentanyl"	Name="EffectSiteConcentration" Unit="ug/mL" Precision="6"/>	
+	<DataRequest xsi:type="SubstanceDataRequestData" Substance="Fentanyl" Name="SystemicMassCleared" Unit="ug" Precision="2"/>	
+	<DataRequest xsi:type="SubstanceDataRequestData" Substance="Fentanyl" Name="MassInBody" Unit="ug" Precision="2"/>	
+	<DataRequest xsi:type="SubstanceDataRequestData" Substance="Fentanyl" Name="EffectSiteConcentration" Unit="ug/L" Precision="6"/>
+
+	
+	<DataRequest xsi:type="LiquidCompartmentDataRequestData" Compartment="LiverTissueIntracellular"       Substance="Fentanyl" Name="MassCleared" Unit="ug" Precision="2"/>
+	<DataRequest xsi:type="LiquidCompartmentDataRequestData" Compartment="LeftKidneyTissueIntracellular"  Substance="Fentanyl" Name="MassCleared" Unit="ug" Precision="2"/>
+	<DataRequest xsi:type="LiquidCompartmentDataRequestData" Compartment="RightKidneyTissueIntracellular" Substance="Fentanyl" Name="MassCleared" Unit="ug" Precision="2"/>
+	<DataRequest xsi:type="LiquidCompartmentDataRequestData" Compartment="LiverTissueIntracellular"       Substance="Fentanyl" Name="MassExcreted" Unit="ug" Precision="2"/>
+  </DataRequests>
+	
+    <Action xsi:type="AdvanceTimeData">
+        <Time value="1" unit="s"/>       
+    </Action>
+	<!--Infuse 2.9ug/kg of fentanyl over 90 s.  Effects should be large--> 
+    <Action xsi:type="SubstanceInfusionData">
+		<Substance>Fentanyl</Substance>
+		<Concentration value="50" unit="ug/mL"/>
+		<Rate value="0.7" unit="mL/min"/>
+    </Action>
+    <Action xsi:type="AdvanceTimeData">
+        <Time value="10" unit="min"/>       
+    </Action>
+	<!--Stop infusion-->
+	<Action xsi:type="SubstanceInfusionData">
+		<Substance>Fentanyl</Substance>
+		<Concentration value="0" unit="ug/mL"/>
+		<Rate value="0" unit="mL/s"/>
+    </Action>
+	<Action xsi:type="AdvanceTimeData">
+        <Time value="120" unit="min"/>       
+    </Action>
+</Scenario>

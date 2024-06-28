@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Patient xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="uri:/mil/tatrc/physiology/datamodel BioGearsDataModel.xsd">
+  <Name>Noor</Name>
+  <Sex>Female</Sex>
+  <Age readOnly="false" unit="yr" value="38.0832764546597"/>
+  <Weight readOnly="false" unit="kg" value="61.663800764271"/>
+  <Height readOnly="false" unit="cm" value="179.995448406212"/>
+  <MaxWorkRate readOnly="false" unit="W" value="762.564546224418"/>
+  <BloodTypeABO>O</BloodTypeABO>
+  <BloodTypeRh>false</BloodTypeRh>
+  <SleepAmount readOnly="false" unit="hr" value="9.29071916770766"/>
+  <BasalMetabolicRate readOnly="false" unit="kcal/day" value="1294.8169817196"/>
+  <DiastolicArterialPressureBaseline readOnly="false" unit="mmHg" value="73.756328210285"/>
+  <HeartRateBaseline readOnly="false" unit="1/min" value="72.0685285755234"/>
+  <RespirationRateBaseline readOnly="false" unit="1/min" value="13.8674778604526"/>
+  <SystolicArterialPressureBaseline readOnly="false" unit="mmHg" value="115.315096611699"/>
+  <HeartRateMaximum readOnly="false" unit="1/min" value="181.576549597347"/>
+  <HeartRateMinimum readOnly="false" unit="1/min" value="0.001"/>
+</Patient>

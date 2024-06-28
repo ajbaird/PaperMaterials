@@ -1,0 +1,111 @@
+2024-04-10 17:50 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-10 17:50 <INFO>  [0s] Initiating 150.000000 % hemorrhage flow rate, for patient 
+2024-04-10 17:50 <INFO>  [0s] ./states/Ariah@0s.xml 
+2024-04-10 17:50 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-10 17:50 <INFO>  [0s] Biogears has sucesfully loaded Ariah. 
+2024-04-10 17:50 <INFO>  [0s] [Action] 0(s), Patient Action : Hemorrhage
+	Initial Bleeding Rate:  150(mL/min)
+	Compartment: Aorta
+	Injury Code: 32640 
+2024-04-10 17:50 <INFO>  [0s] Beginning care 
+2024-04-10 17:51 <INFO>  [7m51s] [Event] 471.08(s),  Patient has Tachypnea 
+2024-04-10 17:51 <INFO>  [9m2s] [Action] 543(s), Patient Action : Compound Infusion
+	Rate: 15(mL/min)
+	Bag Volume: 200(mL)
+	Substance Compound: Plasma 
+2024-04-10 17:51 <INFO>  [9m2s] [Action] 543(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 17:51 <INFO>  [9m2s] Beginning Intervention with infusion at 250.000000 mL_Per_hr 
+2024-04-10 17:51 <INFO>  [9m7s] [Event] 547.76(s),  Patient has Antidiuresis 
+2024-04-10 17:52 <INFO>  [10m58s] [Event] 658.76(s),  Patient has entered state : MildHypernatremia 
+2024-04-10 17:52 <INFO>  [11m13s] [Event] 673.06(s),  Patient has Tachycardia 
+2024-04-10 17:52 <INFO>  [12m47s] [Event] 767.58(s),  Patient is in Hypovolemic Shock 
+2024-04-10 17:52 <INFO>  [13m47s] [Event] 827.28(s),  Patient has Lactic Acidosis 
+2024-04-10 17:53 <INFO>  [19m59s] Stomach is out of Sodium 
+2024-04-10 17:53 <INFO>  [20m0s] [Action] 1201(s), Patient Action : Stop Hemorrhage
+	Compartment: Aorta 
+2024-04-10 17:54 <INFO>  [22m19s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 17:54 <INFO>  [22m19s] [Action] 1340(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 17:54 <INFO>  [23m9s] [Event] 1389.62(s),  Patient has exited state : MildHypernatremia 
+2024-04-10 17:56 <INFO>  [29m59s] Checked blood/gas Labs 
+2024-04-10 17:56 <INFO>  [30m34s] [Event] 1834.84(s),  Patient is no longer in Hypovolemic Shock 
+2024-04-10 17:57 <INFO>  [35m36s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 17:57 <INFO>  [35m36s] [Action] 2137(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:00 <INFO>  [48m53s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 18:00 <INFO>  [48m53s] [Action] 2934(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:00 <INFO>  [49m34s] [Event] 2975(s),  Patient no longer has Tachycardia 
+2024-04-10 18:02 <INFO>  [59m59s] Checked blood/gas Labs 
+2024-04-10 18:02 <INFO>  [59m59s] The patient suffered a hemorrhage wound 60.000000  min ago 
+2024-04-10 18:02 <INFO>  [59m59s] Tidal Volume : 409.895165 mL 
+2024-04-10 18:02 <INFO>  [59m59s] Systolic Pressure : 102.393818 mmHg 
+2024-04-10 18:02 <INFO>  [59m59s] Diastolic Pressure : 71.300537 mmHg 
+2024-04-10 18:02 <INFO>  [59m59s] Heart Rate : 85.735392 bpm 
+2024-04-10 18:02 <INFO>  [59m59s] Respiration Rate : 20.000000 bpm 
+2024-04-10 18:02 <INFO>  [59m59s] Oxygen Saturation : 0.971234 
+2024-04-10 18:02 <INFO>  [59m59s] Blood Volume: 3277.031032 mL 
+2024-04-10 18:02 <INFO>  [59m59s] Systemic Vascular Resistance : 1.049421 mmHg_s_Per_mL 
+2024-04-10 18:02 <INFO>  [59m59s] Mean Urine Output : 27.767914 mL_Per_hr 
+2024-04-10 18:02 <INFO>  [1h2m10s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 18:02 <INFO>  [1h2m10s] [Action] 3731(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:05 <INFO>  [1h15m28s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 18:05 <INFO>  [1h15m28s] [Action] 4528(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:06 <INFO>  [1h22m20s] [Event] 4940.1(s),  Patient no longer is in Antidiuresis 
+2024-04-10 18:08 <INFO>  [1h28m45s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 18:08 <INFO>  [1h28m45s] [Action] 5325(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:08 <INFO>  [1h29m59s] Checked blood/gas Labs 
+2024-04-10 18:08 <INFO>  [1h32m49s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 18:08 <INFO>  [1h32m49s] [Action] 5569(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:10 <INFO>  [1h42m2s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 18:10 <INFO>  [1h42m2s] [Action] 6122(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:13 <INFO>  [1h55m19s] blood IV bag is low, refilling bag 
+ 
+2024-04-10 18:13 <INFO>  [1h55m19s] [Action] 6919(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-10 18:14 <INFO>  [1h59m59s] Checked blood/gas Labs 
+2024-04-10 18:14 <INFO>  [1h59m59s] The patient suffered a hemorrhage wound 119.983333  min ago 
+2024-04-10 18:14 <INFO>  [1h59m59s] Tidal Volume : 442.166616 mL 
+2024-04-10 18:14 <INFO>  [1h59m59s] Systolic Pressure : 111.958830 mmHg 
+2024-04-10 18:14 <INFO>  [1h59m59s] Diastolic Pressure : 72.023616 mmHg 
+2024-04-10 18:14 <INFO>  [1h59m59s] Heart Rate : 73.692654 bpm 
+2024-04-10 18:14 <INFO>  [1h59m59s] Respiration Rate : 19.108280 bpm 
+2024-04-10 18:14 <INFO>  [1h59m59s] Oxygen Saturation : 0.974887 
+2024-04-10 18:14 <INFO>  [1h59m59s] Blood Volume: 3775.366592 mL 
+2024-04-10 18:14 <INFO>  [1h59m59s] Systemic Vascular Resistance : 0.981689 mmHg_s_Per_mL 
+2024-04-10 18:14 <INFO>  [1h59m59s] Mean Urine Output : 32.297376 mL_Per_hr 
+2024-04-10 18:14 <INFO>  [2h0m0s] This simulation has gone on too long 

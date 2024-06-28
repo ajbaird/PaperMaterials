@@ -1,0 +1,112 @@
+2024-04-11 02:34 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-11 02:34 <INFO>  [0s] Initiating 150.000000 % hemorrhage flow rate, for patient 
+2024-04-11 02:34 <INFO>  [0s] ./states/Drew@0s.xml 
+2024-04-11 02:34 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-11 02:34 <INFO>  [0s] Biogears has sucesfully loaded Drew. 
+2024-04-11 02:34 <INFO>  [0s] [Action] 0(s), Patient Action : Hemorrhage
+	Initial Bleeding Rate:  150(mL/min)
+	Compartment: Aorta
+	Injury Code: 32640 
+2024-04-11 02:34 <INFO>  [0s] Beginning care 
+2024-04-11 02:37 <INFO>  [11m20s] [Action] 681(s), Patient Action : Compound Infusion
+	Rate: 15(mL/min)
+	Bag Volume: 200(mL)
+	Substance Compound: Plasma 
+2024-04-11 02:37 <INFO>  [11m20s] [Action] 681(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:37 <INFO>  [11m20s] Beginning Intervention with infusion at 250.000000 mL_Per_hr 
+2024-04-11 02:37 <INFO>  [11m46s] [Event] 706.8(s),  Patient has Antidiuresis 
+2024-04-11 02:37 <INFO>  [11m59s] [Event] 719.2(s),  Patient has Lactic Acidosis 
+2024-04-11 02:37 <INFO>  [12m35s] [Event] 755.2(s),  Patient has Tachycardia 
+2024-04-11 02:37 <INFO>  [13m48s] [Event] 828.5(s),  Patient has entered state : MildHypernatremia 
+2024-04-11 02:37 <INFO>  [14m5s] [Event] 845.18(s),  Patient has Tachypnea 
+2024-04-11 02:37 <INFO>  [14m12s] [Event] 852.34(s),  Patient is in Hypovolemic Shock 
+2024-04-11 02:38 <INFO>  [19m59s] Stomach is out of Sodium 
+2024-04-11 02:38 <INFO>  [20m0s] [Action] 1201(s), Patient Action : Stop Hemorrhage
+	Compartment: Aorta 
+2024-04-11 02:39 <INFO>  [21m18s] [Event] 1278.66(s),  Patient has exited state : MildHypernatremia 
+2024-04-11 02:39 <INFO>  [24m37s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:39 <INFO>  [24m37s] [Action] 1478(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:40 <INFO>  [29m59s] Checked blood/gas Labs 
+2024-04-11 02:40 <INFO>  [30m17s] [Event] 1817.26(s),  Patient is no longer in Hypovolemic Shock 
+2024-04-11 02:42 <INFO>  [37m54s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:42 <INFO>  [37m54s] [Action] 2275(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:43 <INFO>  [44m42s] [Event] 2682.76(s),  Patient no longer is in Antidiuresis 
+2024-04-11 02:44 <INFO>  [48m51s] [Event] 2931.3(s),  Patient no longer has Tachycardia 
+2024-04-11 02:45 <INFO>  [51m11s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:45 <INFO>  [51m11s] [Action] 3072(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:46 <INFO>  [59m59s] Checked blood/gas Labs 
+2024-04-11 02:46 <INFO>  [59m59s] The patient suffered a hemorrhage wound 60.000000  min ago 
+2024-04-11 02:46 <INFO>  [59m59s] Tidal Volume : 429.894606 mL 
+2024-04-11 02:46 <INFO>  [59m59s] Systolic Pressure : 104.662006 mmHg 
+2024-04-11 02:46 <INFO>  [59m59s] Diastolic Pressure : 74.842522 mmHg 
+2024-04-11 02:46 <INFO>  [59m59s] Heart Rate : 88.309182 bpm 
+2024-04-11 02:46 <INFO>  [59m59s] Respiration Rate : 18.072289 bpm 
+2024-04-11 02:46 <INFO>  [59m59s] Oxygen Saturation : 0.971175 
+2024-04-11 02:46 <INFO>  [59m59s] Blood Volume: 3917.133377 mL 
+2024-04-11 02:46 <INFO>  [59m59s] Systemic Vascular Resistance : 1.111391 mmHg_s_Per_mL 
+2024-04-11 02:46 <INFO>  [59m59s] Mean Urine Output : 45.537528 mL_Per_hr 
+2024-04-11 02:47 <INFO>  [1h2m2s] [Event] 3722.64(s),  Patient no longer has Tachypnea 
+2024-04-11 02:47 <INFO>  [1h4m28s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:47 <INFO>  [1h4m28s] [Action] 3869(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:50 <INFO>  [1h17m46s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:50 <INFO>  [1h17m46s] [Action] 4666(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:52 <INFO>  [1h29m59s] Checked blood/gas Labs 
+2024-04-11 02:53 <INFO>  [1h31m3s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:53 <INFO>  [1h31m3s] [Action] 5463(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:53 <INFO>  [1h35m7s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:53 <INFO>  [1h35m7s] [Action] 5707(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:55 <INFO>  [1h44m20s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:55 <INFO>  [1h44m20s] [Action] 6260(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:58 <INFO>  [1h57m37s] blood IV bag is low, refilling bag 
+ 
+2024-04-11 02:58 <INFO>  [1h57m37s] [Action] 7057(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-11 02:58 <INFO>  [1h59m59s] Checked blood/gas Labs 
+2024-04-11 02:58 <INFO>  [1h59m59s] The patient suffered a hemorrhage wound 119.983333  min ago 
+2024-04-11 02:58 <INFO>  [1h59m59s] Tidal Volume : 466.249679 mL 
+2024-04-11 02:58 <INFO>  [1h59m59s] Systolic Pressure : 112.694314 mmHg 
+2024-04-11 02:58 <INFO>  [1h59m59s] Diastolic Pressure : 75.561638 mmHg 
+2024-04-11 02:58 <INFO>  [1h59m59s] Heart Rate : 77.123873 bpm 
+2024-04-11 02:58 <INFO>  [1h59m59s] Respiration Rate : 17.045455 bpm 
+2024-04-11 02:58 <INFO>  [1h59m59s] Oxygen Saturation : 0.976237 
+2024-04-11 02:58 <INFO>  [1h59m59s] Blood Volume: 4440.834936 mL 
+2024-04-11 02:58 <INFO>  [1h59m59s] Systemic Vascular Resistance : 1.042439 mmHg_s_Per_mL 
+2024-04-11 02:58 <INFO>  [1h59m59s] Mean Urine Output : 56.661679 mL_Per_hr 
+2024-04-11 02:58 <INFO>  [2h0m0s] This simulation has gone on too long 

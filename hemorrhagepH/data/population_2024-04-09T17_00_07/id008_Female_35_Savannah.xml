@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Patient xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="uri:/mil/tatrc/physiology/datamodel BioGearsDataModel.xsd">
+  <Name>Savannah</Name>
+  <Sex>Female</Sex>
+  <Age readOnly="false" unit="yr" value="35.5763728808521"/>
+  <Weight readOnly="false" unit="kg" value="56.1532723367421"/>
+  <Height readOnly="false" unit="cm" value="169.959653827138"/>
+  <MaxWorkRate readOnly="false" unit="W" value="760.34551898037"/>
+  <BloodTypeABO>A</BloodTypeABO>
+  <BloodTypeRh>true</BloodTypeRh>
+  <SleepAmount readOnly="false" unit="hr" value="2.795926301655"/>
+  <BasalMetabolicRate readOnly="false" unit="kcal/day" value="1297.90510529944"/>
+  <DiastolicArterialPressureBaseline readOnly="false" unit="mmHg" value="71.7918782368054"/>
+  <HeartRateBaseline readOnly="false" unit="1/min" value="72.0729327318617"/>
+  <RespirationRateBaseline readOnly="false" unit="1/min" value="19.2790612891724"/>
+  <SystolicArterialPressureBaseline readOnly="false" unit="mmHg" value="115.464054769187"/>
+  <HeartRateMaximum readOnly="false" unit="1/min" value="180.256423339906"/>
+  <HeartRateMinimum readOnly="false" unit="1/min" value="0.001"/>
+</Patient>

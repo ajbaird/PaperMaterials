@@ -1,0 +1,97 @@
+2024-04-12 02:57 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-12 02:57 <INFO>  [0s] Initiating 75.000000 % hemorrhage flow rate, for patient 
+2024-04-12 02:57 <INFO>  [0s] ./states/Noor@0s.xml 
+2024-04-12 02:57 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-12 02:57 <INFO>  [0s] Biogears has sucesfully loaded Noor. 
+2024-04-12 02:57 <INFO>  [0s] [Action] 0(s), Patient Action : Hemorrhage
+	Initial Bleeding Rate:  75(mL/min)
+	Compartment: Aorta
+	Injury Code: 22640 
+2024-04-12 02:57 <INFO>  [0s] Beginning care 
+2024-04-12 03:00 <INFO>  [16m48s] [Action] 1009(s), Patient Action : Compound Infusion
+	Rate: 15(mL/min)
+	Bag Volume: 200(mL)
+	Substance Compound: Plasma 
+2024-04-12 03:00 <INFO>  [16m48s] [Action] 1009(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:00 <INFO>  [16m48s] Beginning Intervention with infusion at 250.000000 mL_Per_hr 
+2024-04-12 03:01 <INFO>  [17m20s] [Event] 1040.4(s),  Patient has Antidiuresis 
+2024-04-12 03:01 <INFO>  [19m59s] Stomach is out of Sodium 
+2024-04-12 03:01 <INFO>  [20m0s] [Action] 1201(s), Patient Action : Stop Hemorrhage
+	Compartment: Aorta 
+2024-04-12 03:02 <INFO>  [23m54s] [Event] 1434.96(s),  Patient no longer is in Antidiuresis 
+2024-04-12 03:03 <INFO>  [29m59s] Checked blood/gas Labs 
+2024-04-12 03:03 <INFO>  [30m5s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:03 <INFO>  [30m5s] [Action] 1806(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:06 <INFO>  [43m22s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:06 <INFO>  [43m22s] [Action] 2603(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:08 <INFO>  [56m39s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:08 <INFO>  [56m39s] [Action] 3400(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:09 <INFO>  [59m59s] Checked blood/gas Labs 
+2024-04-12 03:09 <INFO>  [59m59s] The patient suffered a hemorrhage wound 60.000000  min ago 
+2024-04-12 03:09 <INFO>  [59m59s] Tidal Volume : 494.265435 mL 
+2024-04-12 03:09 <INFO>  [59m59s] Systolic Pressure : 105.977361 mmHg 
+2024-04-12 03:09 <INFO>  [59m59s] Diastolic Pressure : 73.978510 mmHg 
+2024-04-12 03:09 <INFO>  [59m59s] Heart Rate : 81.222806 bpm 
+2024-04-12 03:09 <INFO>  [59m59s] Respiration Rate : 15.228426 bpm 
+2024-04-12 03:09 <INFO>  [59m59s] Oxygen Saturation : 0.974437 
+2024-04-12 03:09 <INFO>  [59m59s] Blood Volume: 3899.988780 mL 
+2024-04-12 03:09 <INFO>  [59m59s] Systemic Vascular Resistance : 1.026538 mmHg_s_Per_mL 
+2024-04-12 03:09 <INFO>  [59m59s] Mean Urine Output : 64.178165 mL_Per_hr 
+2024-04-12 03:11 <INFO>  [1h9m56s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:11 <INFO>  [1h9m56s] [Action] 4197(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:14 <INFO>  [1h23m14s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:14 <INFO>  [1h23m14s] [Action] 4994(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:15 <INFO>  [1h29m59s] Checked blood/gas Labs 
+2024-04-12 03:16 <INFO>  [1h36m31s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:16 <INFO>  [1h36m31s] [Action] 5791(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:17 <INFO>  [1h40m35s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:17 <INFO>  [1h40m35s] [Action] 6035(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:19 <INFO>  [1h49m48s] blood IV bag is low, refilling bag 
+ 
+2024-04-12 03:19 <INFO>  [1h49m48s] [Action] 6588(s), Patient Action : Compound Infusion
+	Rate: 250(mL/hr)
+	Bag Volume: 350(mL)
+	Substance Compound: Blood_ONegative 
+2024-04-12 03:21 <INFO>  [1h59m59s] Checked blood/gas Labs 
+2024-04-12 03:21 <INFO>  [1h59m59s] The patient suffered a hemorrhage wound 119.983333  min ago 
+2024-04-12 03:21 <INFO>  [1h59m59s] Tidal Volume : 504.510667 mL 
+2024-04-12 03:21 <INFO>  [1h59m59s] Systolic Pressure : 111.340655 mmHg 
+2024-04-12 03:21 <INFO>  [1h59m59s] Diastolic Pressure : 73.599222 mmHg 
+2024-04-12 03:21 <INFO>  [1h59m59s] Heart Rate : 74.625079 bpm 
+2024-04-12 03:21 <INFO>  [1h59m59s] Respiration Rate : 14.778325 bpm 
+2024-04-12 03:21 <INFO>  [1h59m59s] Oxygen Saturation : 0.975565 
+2024-04-12 03:21 <INFO>  [1h59m59s] Blood Volume: 4236.711282 mL 
+2024-04-12 03:21 <INFO>  [1h59m59s] Systemic Vascular Resistance : 0.960401 mmHg_s_Per_mL 
+2024-04-12 03:21 <INFO>  [1h59m59s] Mean Urine Output : 70.491621 mL_Per_hr 
+2024-04-12 03:21 <INFO>  [2h0m0s] This simulation has gone on too long 

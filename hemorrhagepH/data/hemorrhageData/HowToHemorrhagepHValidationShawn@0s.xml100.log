@@ -1,0 +1,40 @@
+2024-04-12 14:48 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-12 14:48 <INFO>  [0s] Initiating 100.000000 % hemorrhage flow rate, for patient 
+2024-04-12 14:48 <INFO>  [0s] ./states/Shawn@0s.xml 
+2024-04-12 14:48 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-12 14:48 <INFO>  [0s] Biogears has sucesfully loaded Shawn. 
+2024-04-12 14:48 <INFO>  [0s] [Action] 0(s), Patient Action : Hemorrhage
+	Initial Bleeding Rate:  100(mL/min)
+	Compartment: Aorta
+	Injury Code: 22640 
+2024-04-12 14:48 <INFO>  [0s] Beginning care 
+2024-04-12 14:48 <INFO>  [36s] [Event] 36.62(s),  Patient has entered state : RespiratoryAlkalosis 
+2024-04-12 14:52 <INFO>  [19m59s] Stomach is out of Sodium 
+2024-04-12 14:52 <INFO>  [20m0s] [Action] 1201(s), Patient Action : Stop Hemorrhage
+	Compartment: Aorta 
+2024-04-12 14:52 <INFO>  [20m27s] [Event] 1227.26(s),  Patient has Lactic Acidosis 
+2024-04-12 14:54 <INFO>  [29m59s] Checked blood/gas Labs 
+2024-04-12 15:00 <INFO>  [59m59s] Checked blood/gas Labs 
+2024-04-12 15:00 <INFO>  [59m59s] The patient suffered a hemorrhage wound 60.000000  min ago 
+2024-04-12 15:00 <INFO>  [59m59s] Tidal Volume : 493.635714 mL 
+2024-04-12 15:00 <INFO>  [59m59s] Systolic Pressure : 104.589491 mmHg 
+2024-04-12 15:00 <INFO>  [59m59s] Diastolic Pressure : 70.005641 mmHg 
+2024-04-12 15:00 <INFO>  [59m59s] Heart Rate : 83.518053 bpm 
+2024-04-12 15:00 <INFO>  [59m59s] Respiration Rate : 17.441860 bpm 
+2024-04-12 15:00 <INFO>  [59m59s] Oxygen Saturation : 0.985239 
+2024-04-12 15:00 <INFO>  [59m59s] Blood Volume: 6197.640566 mL 
+2024-04-12 15:00 <INFO>  [59m59s] Systemic Vascular Resistance : 0.952889 mmHg_s_Per_mL 
+2024-04-12 15:00 <INFO>  [59m59s] Mean Urine Output : 59.903924 mL_Per_hr 
+2024-04-12 15:06 <INFO>  [1h29m59s] Checked blood/gas Labs 
+2024-04-12 15:12 <INFO>  [1h59m59s] Checked blood/gas Labs 
+2024-04-12 15:12 <INFO>  [1h59m59s] The patient suffered a hemorrhage wound 119.983333  min ago 
+2024-04-12 15:12 <INFO>  [1h59m59s] Tidal Volume : 508.610952 mL 
+2024-04-12 15:12 <INFO>  [1h59m59s] Systolic Pressure : 107.269968 mmHg 
+2024-04-12 15:12 <INFO>  [1h59m59s] Diastolic Pressure : 70.602073 mmHg 
+2024-04-12 15:12 <INFO>  [1h59m59s] Heart Rate : 79.629767 bpm 
+2024-04-12 15:12 <INFO>  [1h59m59s] Respiration Rate : 17.543860 bpm 
+2024-04-12 15:12 <INFO>  [1h59m59s] Oxygen Saturation : 0.985459 
+2024-04-12 15:12 <INFO>  [1h59m59s] Blood Volume: 6373.102397 mL 
+2024-04-12 15:12 <INFO>  [1h59m59s] Systemic Vascular Resistance : 0.968437 mmHg_s_Per_mL 
+2024-04-12 15:12 <INFO>  [1h59m59s] Mean Urine Output : 64.659777 mL_Per_hr 
+2024-04-12 15:12 <INFO>  [2h0m0s] This simulation has gone on too long 

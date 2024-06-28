@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Patient xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="uri:/mil/tatrc/physiology/datamodel BioGearsDataModel.xsd">
+  <Name>Ariah</Name>
+  <Sex>Female</Sex>
+  <Age readOnly="false" unit="yr" value="39.6394769159138"/>
+  <Weight readOnly="false" unit="kg" value="53.5438253438368"/>
+  <Height readOnly="false" unit="cm" value="184.617786824394"/>
+  <MaxWorkRate readOnly="false" unit="W" value="763.931473015435"/>
+  <BloodTypeABO>B</BloodTypeABO>
+  <BloodTypeRh>false</BloodTypeRh>
+  <SleepAmount readOnly="false" unit="hr" value="7.44082573072885"/>
+  <BasalMetabolicRate readOnly="false" unit="kcal/day" value="1297.30497315832"/>
+  <DiastolicArterialPressureBaseline readOnly="false" unit="mmHg" value="72.3549224067597"/>
+  <HeartRateBaseline readOnly="false" unit="1/min" value="71.935741213562"/>
+  <RespirationRateBaseline readOnly="false" unit="1/min" value="17.6331269120991"/>
+  <SystolicArterialPressureBaseline readOnly="false" unit="mmHg" value="114.530580678953"/>
+  <HeartRateMaximum readOnly="false" unit="1/min" value="177.206014747691"/>
+  <HeartRateMinimum readOnly="false" unit="1/min" value="0.001"/>
+</Patient>

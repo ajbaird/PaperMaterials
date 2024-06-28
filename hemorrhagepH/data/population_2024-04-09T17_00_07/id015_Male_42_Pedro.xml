@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Patient xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="uri:/mil/tatrc/physiology/datamodel BioGearsDataModel.xsd">
+  <Name>Pedro</Name>
+  <Sex>Male</Sex>
+  <Age readOnly="false" unit="yr" value="42.0573949060483"/>
+  <Weight readOnly="false" unit="kg" value="89.5758261247582"/>
+  <Height readOnly="false" unit="cm" value="189.612545214353"/>
+  <MaxWorkRate readOnly="false" unit="W" value="761.356355990463"/>
+  <BloodTypeABO>AB</BloodTypeABO>
+  <BloodTypeRh>false</BloodTypeRh>
+  <SleepAmount readOnly="false" unit="hr" value="10.0640077776801"/>
+  <BasalMetabolicRate readOnly="false" unit="kcal/day" value="1296.0040519579"/>
+  <DiastolicArterialPressureBaseline readOnly="false" unit="mmHg" value="73.6012465088019"/>
+  <HeartRateBaseline readOnly="false" unit="1/min" value="72.1370358350533"/>
+  <RespirationRateBaseline readOnly="false" unit="1/min" value="15.2372049931074"/>
+  <SystolicArterialPressureBaseline readOnly="false" unit="mmHg" value="112.282852942988"/>
+  <HeartRateMaximum readOnly="false" unit="1/min" value="182.04148951106"/>
+  <HeartRateMinimum readOnly="false" unit="1/min" value="0.001"/>
+</Patient>

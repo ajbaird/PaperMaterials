@@ -1,0 +1,38 @@
+2024-04-12 02:34 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-12 02:34 <INFO>  [0s] Initiating 50.000000 % hemorrhage flow rate, for patient 
+2024-04-12 02:34 <INFO>  [0s] ./states/Noor@0s.xml 
+2024-04-12 02:34 <WARNING>  [0s] Multiple Renal Clearances specified, but not the same. RenalDynamics will override Systemic. 
+2024-04-12 02:34 <INFO>  [0s] Biogears has sucesfully loaded Noor. 
+2024-04-12 02:34 <INFO>  [0s] [Action] 0(s), Patient Action : Hemorrhage
+	Initial Bleeding Rate:  50(mL/min)
+	Compartment: Aorta
+	Injury Code: 12640 
+2024-04-12 02:34 <INFO>  [0s] Beginning care 
+2024-04-12 02:38 <INFO>  [19m59s] Stomach is out of Sodium 
+2024-04-12 02:38 <INFO>  [20m0s] [Action] 1201(s), Patient Action : Stop Hemorrhage
+	Compartment: Aorta 
+2024-04-12 02:40 <INFO>  [29m59s] Checked blood/gas Labs 
+2024-04-12 02:45 <INFO>  [59m59s] Checked blood/gas Labs 
+2024-04-12 02:45 <INFO>  [59m59s] The patient suffered a hemorrhage wound 60.000000  min ago 
+2024-04-12 02:45 <INFO>  [59m59s] Tidal Volume : 474.816335 mL 
+2024-04-12 02:45 <INFO>  [59m59s] Systolic Pressure : 105.231110 mmHg 
+2024-04-12 02:45 <INFO>  [59m59s] Diastolic Pressure : 73.208391 mmHg 
+2024-04-12 02:45 <INFO>  [59m59s] Heart Rate : 82.314530 bpm 
+2024-04-12 02:45 <INFO>  [59m59s] Respiration Rate : 15.000000 bpm 
+2024-04-12 02:45 <INFO>  [59m59s] Oxygen Saturation : 0.974995 
+2024-04-12 02:45 <INFO>  [59m59s] Blood Volume: 3852.464647 mL 
+2024-04-12 02:45 <INFO>  [59m59s] Systemic Vascular Resistance : 1.012366 mmHg_s_Per_mL 
+2024-04-12 02:45 <INFO>  [59m59s] Mean Urine Output : 67.221973 mL_Per_hr 
+2024-04-12 02:51 <INFO>  [1h29m59s] Checked blood/gas Labs 
+2024-04-12 02:57 <INFO>  [1h59m59s] Checked blood/gas Labs 
+2024-04-12 02:57 <INFO>  [1h59m59s] The patient suffered a hemorrhage wound 119.983333  min ago 
+2024-04-12 02:57 <INFO>  [1h59m59s] Tidal Volume : 479.140467 mL 
+2024-04-12 02:57 <INFO>  [1h59m59s] Systolic Pressure : 106.388995 mmHg 
+2024-04-12 02:57 <INFO>  [1h59m59s] Diastolic Pressure : 73.077924 mmHg 
+2024-04-12 02:57 <INFO>  [1h59m59s] Heart Rate : 80.391925 bpm 
+2024-04-12 02:57 <INFO>  [1h59m59s] Respiration Rate : 14.778325 bpm 
+2024-04-12 02:57 <INFO>  [1h59m59s] Oxygen Saturation : 0.976054 
+2024-04-12 02:57 <INFO>  [1h59m59s] Blood Volume: 3942.550764 mL 
+2024-04-12 02:57 <INFO>  [1h59m59s] Systemic Vascular Resistance : 0.992105 mmHg_s_Per_mL 
+2024-04-12 02:57 <INFO>  [1h59m59s] Mean Urine Output : 68.678480 mL_Per_hr 
+2024-04-12 02:57 <INFO>  [2h0m0s] This simulation has gone on too long 

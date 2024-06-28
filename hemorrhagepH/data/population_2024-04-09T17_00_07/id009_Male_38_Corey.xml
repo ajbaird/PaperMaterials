@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Patient xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="uri:/mil/tatrc/physiology/datamodel BioGearsDataModel.xsd">
+  <Name>Corey</Name>
+  <Sex>Male</Sex>
+  <Age readOnly="false" unit="yr" value="38.4355466077659"/>
+  <Weight readOnly="false" unit="kg" value="65.1376467644599"/>
+  <Height readOnly="false" unit="cm" value="193.630333467629"/>
+  <MaxWorkRate readOnly="false" unit="W" value="763.364091263664"/>
+  <BloodTypeABO>A</BloodTypeABO>
+  <BloodTypeRh>false</BloodTypeRh>
+  <SleepAmount readOnly="false" unit="hr" value="6.53925227058692"/>
+  <BasalMetabolicRate readOnly="false" unit="kcal/day" value="1293.18077476926"/>
+  <DiastolicArterialPressureBaseline readOnly="false" unit="mmHg" value="73.3734542700984"/>
+  <HeartRateBaseline readOnly="false" unit="1/min" value="72.0214022136242"/>
+  <RespirationRateBaseline readOnly="false" unit="1/min" value="13.8958947805032"/>
+  <SystolicArterialPressureBaseline readOnly="false" unit="mmHg" value="115.904116661207"/>
+  <HeartRateMaximum readOnly="false" unit="1/min" value="180.532915865215"/>
+  <HeartRateMinimum readOnly="false" unit="1/min" value="0.001"/>
+</Patient>

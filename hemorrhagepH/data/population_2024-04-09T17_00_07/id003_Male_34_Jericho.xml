@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Patient xmlns="uri:/mil/tatrc/physiology/datamodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="uri:/mil/tatrc/physiology/datamodel BioGearsDataModel.xsd">
+  <Name>Jericho</Name>
+  <Sex>Male</Sex>
+  <Age readOnly="false" unit="yr" value="34.1637369240083"/>
+  <Weight readOnly="false" unit="kg" value="72.5365801177113"/>
+  <Height readOnly="false" unit="cm" value="182.94631119353"/>
+  <MaxWorkRate readOnly="false" unit="W" value="761.142235883459"/>
+  <BloodTypeABO>O</BloodTypeABO>
+  <BloodTypeRh>true</BloodTypeRh>
+  <SleepAmount readOnly="false" unit="hr" value="4.44626402502155"/>
+  <BasalMetabolicRate readOnly="false" unit="kcal/day" value="1292.40372784651"/>
+  <DiastolicArterialPressureBaseline readOnly="false" unit="mmHg" value="73.8837921463134"/>
+  <HeartRateBaseline readOnly="false" unit="1/min" value="72.0744839142882"/>
+  <RespirationRateBaseline readOnly="false" unit="1/min" value="16.1126756419344"/>
+  <SystolicArterialPressureBaseline readOnly="false" unit="mmHg" value="115.324227478382"/>
+  <HeartRateMaximum readOnly="false" unit="1/min" value="178.665007623373"/>
+  <HeartRateMinimum readOnly="false" unit="1/min" value="0.001"/>
+</Patient>
